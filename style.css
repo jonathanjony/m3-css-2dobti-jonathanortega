@@ -6,4 +6,112 @@
         p{
             font-size: 36px;
         }
+
+
+
+        /* alieacion de textos */
+        #articulo1{
+            text-align: center;
+            /*puede tener los siguente
+            auto
+            left,right,center
+            justify
+            tambien existen otros
+            atributos para alienar
+            -text-align
+            -texta-align-last
+            -vertical-align
+            -direction
+            -unicode-bidi*/
+        }
     
+        /* Decoraciones de texto*/
+        #articulo1Titulado{
+
+            /* 
+            -text-decoration-line
+            -text-de coration-color
+            -text-decoration-style
+            -text-decoration-thickness
+            */
+            text-decoration-line: line-through;
+            /* underline oveline line-through */
+            text-decoration-color: red;
+            text-decoration-style: solid;
+            text-decoration-thickness: 5px;
+        }
+        #articulo1detallado{
+            text-decoration: underline wavy rgb(215, 44, 44)10%;
+
+            font-weight: lighter;
+
+        }
+        /* Transfornaciones de texto */
+        #articulo2detallado{
+            text-transform: uppercase;
+            /* none, lowercase, uppercase, capitalize */
+            font-weight: bold;
+        }
+
+        /* Espaciedo de texto */
+        #articulo3detallado{
+            text-indent: 56px;
+            letter-spacing: 20px;
+            line-height: 2.0;
+          /*  white-space: pre-wrap; */
+          font-weight: 800; /* 400 es el nomal y 900 es el bold */
+        }
+        /*  Sombras de texto */
+        #articulo2titulado{
+            color: gray;
+            text-shadow: 2px 2px 4px rgb( 169, 44, 215);
+            letter-spacing: 10px;
+            /* Fuentes en css*/
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            /* 
+            font-size (xx.small, x-small, small, medium, large, x-large, xx-large)
+            se puede especificar los tamaños en
+            px, em, rem, %, vw, smaller and larger;
+            */
+            font-size: 4em; /* lem =16px & 1rem =16px */
+        }
+        #articuloSeccion{
+            border: solid 1px black;
+            padding: 10px;
+            background-color: cornflowerblue;
+        }
+        /*
+        #articulo1, #articulo2, #articulo3{
+            border: solid 1px black;
+            margin: 10px;
+        } */
+
+        #articulo1{
+
+            background-color: bisque;
+            padding: 10px;
+            border-left: inset 30px blue;
+        }
+        #articulo2{
+            background-color: aqua;
+            padding: 10px;
+            border-top: black outset;
+            margin: 10px;
+        }
+
+        #articulo3{
+            background-color: lightgray;
+            padding: 10px;
+            border-bottom: dashed 10px red;
+            /* 
+            Estilos de bordes
+            border-style
+            dotted,dashed,
+            solid, double,
+            groove, ridge,
+            inset, outset,
+            none, hidden
+            */
+            
+        }
+        
